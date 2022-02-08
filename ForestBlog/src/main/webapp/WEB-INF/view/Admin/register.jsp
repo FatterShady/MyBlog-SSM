@@ -100,7 +100,7 @@
                     </p>
                 </form>
 
-                <p id="backtoblog"><a href="/">&larr; 返回到风吟博客</a> | <a href="/login">登录</a></p>
+                <p id="backtoblog"><a href="/">&larr; 返回主界面</a> | <a href="/login">登录</a></p>
 
             </div>
 
@@ -135,7 +135,7 @@
                             success: function (data) {
                                 if (data.code == 0) {
                                     alert('注册成功');
-                                    window.location.href = "/login";
+                                     window.location.href = "/login";
                                 } else {
                                     alert(data.msg);
                                 }

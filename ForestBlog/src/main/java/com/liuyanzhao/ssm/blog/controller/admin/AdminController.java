@@ -140,7 +140,7 @@ public class AdminController {
     }
 
     /**
-     * 登录验证
+     * 注册验证
      *
      * @param request
      * @return
@@ -173,6 +173,8 @@ public class AdminController {
         user.setUserRole(UserRole.USER.getValue());
         try {
             userService.insertUser(user);
+            //把用户名放进Session中用于免用户名登录
+            request.getSession().setAttribute("userName", user.getUserName());
         } catch (Exception e) {
             e.printStackTrace();
             return new JsonResult().fail("系统异常");
@@ -238,7 +240,6 @@ public class AdminController {
     @RequestMapping(value = "/admin/profile/save", method = RequestMethod.POST)
     public String saveProfile(User user, HttpSession session) {
         User dbUser = (User) session.getAttribute("user");
-
         user.setUserId(dbUser.getUserId());
         userService.updateUser(user);
         return "redirect:/admin/profile";
