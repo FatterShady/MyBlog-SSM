@@ -1,7 +1,7 @@
 package com.wxr.ssm.blog.enums;
 
 /**
- * @author 言曌
+ * @author wxr
  * @date 2018/11/17 下午4:47
  */
 

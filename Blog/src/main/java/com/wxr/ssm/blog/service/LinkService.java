@@ -6,8 +6,8 @@ import java.util.List;
 
 /**
  *
- * @author 言曌
- * @date 2017/9/4
+ * @author wxr
+ * @date 2022/9/4
  */
 public interface LinkService {
 

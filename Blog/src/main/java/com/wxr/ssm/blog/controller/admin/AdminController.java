@@ -79,7 +79,7 @@ public class AdminController {
 
 
     /**
-     * 登录页面显示
+     * 注册页面显示
      *
      * @return
      */

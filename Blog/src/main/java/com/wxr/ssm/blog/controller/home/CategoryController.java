@@ -24,8 +24,8 @@ import java.util.List;
 /**
  * 文章分类目录的controller
  *
- * @author 言曌
- * @date 2017/8/24
+ * @author wxr
+ * @date 2022/8/24
  */
 @Controller
 public class CategoryController {

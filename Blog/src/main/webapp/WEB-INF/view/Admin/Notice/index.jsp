@@ -65,7 +65,7 @@
                                     显示
                                 </c:when>
                                 <c:otherwise>
-                                    <span style="color:#FF5722;">隐藏</span>
+                                    <span style="color:#FF5722">隐藏</span>
                                 </c:otherwise>
                             </c:choose>
                         </td>

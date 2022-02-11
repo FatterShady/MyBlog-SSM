@@ -62,6 +62,17 @@
         </mvc:interceptor>
 
         <mvc:interceptor>
+            <mvc:mapping path="/admin/notice"/>
+            <bean class="com.wxr.ssm.blog.interceptor.AdminInterceptor"/>
+        </mvc:interceptor>
+
+        <mvc:interceptor>
+            <mvc:mapping path="/admin/notice/**"/>
+            <bean class="com.wxr.ssm.blog.interceptor.AdminInterceptor"/>
+        </mvc:interceptor>
+
+
+        <mvc:interceptor>
             <mvc:mapping path="/admin/page"/>
             <bean class="com.wxr.ssm.blog.interceptor.AdminInterceptor"/>
         </mvc:interceptor>
@@ -97,6 +108,7 @@
             <mvc:mapping path="/admin/user/**"/>
             <bean class="com.wxr.ssm.blog.interceptor.AdminInterceptor"/>
         </mvc:interceptor>
+
 
         <mvc:interceptor>
             <mvc:mapping path="/admin/menu"/>

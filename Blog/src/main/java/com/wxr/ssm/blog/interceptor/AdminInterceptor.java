@@ -27,6 +27,7 @@ public class AdminInterceptor extends HandlerInterceptorAdapter {
             return false;
         }
         if (!Objects.equals(user.getUserRole(), UserRole.ADMIN.getValue())) {
+            response.sendRedirect("/admin");
             return false;
         }
         return true;

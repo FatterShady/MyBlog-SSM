@@ -5,8 +5,8 @@ import com.wxr.ssm.blog.entity.User;
 import java.util.List;
 
 /**
- * @author 言曌
- * @date 2017/8/24
+ * @author wxr
+ * @date 2022/8/24
  */
 
 public interface UserService {

@@ -3,8 +3,8 @@ package com.wxr.ssm.blog.dto;
 import lombok.Data;
 
 /**
- * @author 言曌
- * @date 2017/11/30 下午7:04
+ * @author wxr
+ * @date 2022/11/30 下午7:04
  */
 
 @Data

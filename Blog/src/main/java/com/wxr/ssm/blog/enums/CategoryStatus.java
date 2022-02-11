@@ -3,7 +3,7 @@ package com.wxr.ssm.blog.enums;
 import lombok.Data;
 
 /**
- * @author 言曌
+ * @author wxr
  * @date 2018/11/17 下午4:47
  */
 

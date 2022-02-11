@@ -35,7 +35,6 @@
                 <dl class="layui-nav-child">
                     <dd><a href="/admin/article/insert">文章</a></dd>
                     <dd><a href="/admin/page/insert">页面</a></dd>
-                    <dd><a href="/admin/category/insert">分类</a></dd>
                     <dd><a href="/admin/notice/insert">公告</a></dd>
                     <dd><a href="/admin/link/insert">链接</a></dd>
                 </dl>
@@ -60,7 +59,7 @@
     <div class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-
+            <%--这里就是显示不同用户的不同页面--%>
             <c:if test="${sessionScope.user != null && sessionScope.user.userRole == 'admin'}">
                 <ul class="layui-nav layui-nav-tree"  lay-filter="test">
                 <li class="layui-nav-item layui-nav-itemed">

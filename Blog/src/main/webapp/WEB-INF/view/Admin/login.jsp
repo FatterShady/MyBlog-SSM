@@ -158,7 +158,6 @@
                         alert(data.msg);
                     } else {
                         window.location.href = "/admin";
-                        console.log(data)
                     }
                 },
                 error: function () {
