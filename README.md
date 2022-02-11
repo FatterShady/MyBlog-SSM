@@ -8,19 +8,19 @@
 
 前台：
 
-![前台](G:\Git-fattershady\MyBlog\uploads\前台.jpg)
+![前台](https://github.com/FatterShady/MyBlog-SSM/blob/master/uploads/%E5%89%8D%E5%8F%B0.jpg)
 
 登录：
 
-![登录](G:\Git-fattershady\MyBlog\uploads\登录.jpg)
+![登录](https://github.com/FatterShady/MyBlog-SSM/blob/master/uploads/%E7%99%BB%E5%BD%95.jpg)
 
 注册：
 
-![注册](G:\Git-fattershady\MyBlog\uploads\注册.jpg)
+![注册](https://github.com/FatterShady/MyBlog-SSM/blob/master/uploads/%E6%B3%A8%E5%86%8C.jpg)
 
 后台：
 
-![后台](G:\Git-fattershady\MyBlog\uploads\后台.jpg)
+![后台](https://github.com/FatterShady/MyBlog-SSM/blob/master/uploads/%E5%90%8E%E5%8F%B0.jpg)
 
 
 
